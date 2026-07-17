@@ -1,0 +1,84 @@
+aid: balderton-capital
+name: Balderton Capital
+description: >-
+  Balderton Capital is a London-headquartered venture capital firm focused
+  exclusively on backing European-founded technology companies. Founded in 2000
+  as Benchmark Capital Europe and fully independent since 2007, Balderton is one
+  of Europe's largest and most established venture firms, with over $7 billion in
+  assets under management across dedicated early-stage and growth funds. The firm
+  invests from Seed through Series B and follows on into growth stages, writing
+  checks across sectors including fintech, artificial intelligence, B2B SaaS,
+  developer tools and infrastructure, digital health, gaming, marketplaces and
+  climate. Balderton is known for a founder-centric model, running a dedicated
+  founder wellbeing and performance platform and an executive/talent network to
+  support portfolio companies. Notable investments over the firm's history include
+  Revolut, GoCardless, Depop, Darktrace, Contentful, Dream Games, Wayve, Aircall,
+  Citymapper, Talend, MySQL, Recorded Future, Sophia Genetics and The Hut Group
+  (THG).
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Series B
+  - Growth
+  - Fintech
+  - Artificial Intelligence
+  - Developer Tools
+  - Infrastructure
+  - Digital Health
+  - Europe
+image: https://www.balderton.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.balderton.com/
+  - type: Portfolio
+    url: https://www.balderton.com/companies/
+  - type: Portfolio
+    url: portfolio/balderton-capital-portfolio.yml
+  - type: Team
+    url: https://www.balderton.com/team/
+  - type: Team
+    url: team/balderton-capital-team.yml
+  - type: InvestmentThesis
+    url: https://www.balderton.com/beliefs-values/
+  - type: Blog
+    url: https://www.balderton.com/resources/
+  - type: News
+    url: https://www.balderton.com/news/
+  - type: Jobs
+    url: https://careers.balderton.com/jobs
+  - type: Contact
+    url: https://www.balderton.com/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/balderton-capital_2/
+  - type: Twitter
+    url: https://twitter.com/balderton
+  - type: Blog
+    url: https://medium.com/balderton
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/balderton-capital
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A, Series B, Growth'
+      - 'Sectors: fintech, AI, B2B SaaS, developer tools and infrastructure, digital health, gaming, marketplaces, climate'
+      - 'Geography: Europe (European-founded companies)'
+      - 'AUM: over $7 billion (self-reported / press)'
+      - 'Founded: 2000 (as Benchmark Capital Europe; independent 2007)'
+      - 'HQ: London, United Kingdom'
+    sources:
+      - https://www.balderton.com/
+      - https://en.wikipedia.org/wiki/Balderton_Capital
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Balderton Capital
+    url: https://www.balderton.com/

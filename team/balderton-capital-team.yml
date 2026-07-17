@@ -1,0 +1,39 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.balderton.com/team/
+type: Team
+team:
+  - name: Bernard Liautaud
+    role: Managing Partner
+  - name: Phil Chambers
+    role: Partner
+  - name: Suranga Chandratillake
+    role: Partner
+  - name: Daniel Waterhouse
+    role: Partner
+  - name: James Wise
+    role: Partner
+  - name: Rana Yared
+    role: Partner
+  - name: Rob Moffat
+    role: Partner
+  - name: Greta Anderson
+    role: Managing Director
+  - name: Elena Moneta
+    role: Managing Director
+  - name: Claudia Rowe
+    role: Managing Director
+  - name: Shikha Ahluwalia
+    role: Principal
+  - name: Solène Brébant
+    role: Principal
+  - name: Sivesh Sukumar
+    role: Principal
+  - name: Lena Hinkelmann
+    role: Associate
+  - name: Tobias Winczer
+    role: Associate
+  - name: Niklas Falk
+    role: Analyst
+  - name: Zain Waheed
+    role: Analyst
