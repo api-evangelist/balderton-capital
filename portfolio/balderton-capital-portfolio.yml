@@ -3,18 +3,18 @@ method: searched
 source: https://www.balderton.com/companies/
 summary:
   portfolio_total: 193
-  in_network: 40
-  api_providers: 27
-  missing: 153
+  in_network: 193
+  api_providers: 50
+  missing: 0
   stubs_created: 0
 companies:
 - name: revolut
   url: https://www.revolut.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  slug: neobanks
+  slug: revolut
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: quantum-systems
   url: https://quantum-systems.com/
@@ -36,9 +36,10 @@ companies:
   url: https://www.proximafusion.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proximafusion
+  slug: proximafusion
+  matched_by: domain
 - name: meetcleo
   url: https://www.meetcleo.com/
   status: unknown
@@ -51,30 +52,34 @@ companies:
   url: https://www.exploration.space/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exploration
+  slug: exploration
+  matched_by: domain
 - name: 01health
   url: https://01health.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 01health
+  slug: 01health
+  matched_by: domain
 - name: adludio
   url: https://adludio.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adludio
+  slug: adludio
+  matched_by: domain
 - name: agavegames
   url: https://www.agavegames.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agavegames
+  slug: agavegames
+  matched_by: domain
 - name: aircall
   url: https://aircall.io/
   status: unknown
@@ -87,23 +92,26 @@ companies:
   url: https://www.andjaro.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andjaro
+  slug: andjaro
+  matched_by: domain
 - name: appearhere
   url: https://www.appearhere.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appearhere
+  slug: appearhere
+  matched_by: domain
 - name: getarive
   url: https://www.getarive.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getarive
+  slug: getarive
+  matched_by: domain
 - name: attio
   url: https://attio.com/
   status: unknown
@@ -116,30 +124,34 @@ companies:
   url: https://avimedical.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avimedical
+  slug: avimedical
+  matched_by: domain
 - name: axitech
   url: https://www.axitech.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axitech
+  slug: axitech
+  matched_by: domain
 - name: beautypie
   url: https://www.beautypie.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beautypie
+  slug: beautypie
+  matched_by: domain
 - name: Bebo
   url: https://bebo.com
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bebo
+  slug: bebo
+  matched_by: domain
 - name: betfair
   url: https://www.betfair.com/
   status: unknown
@@ -152,37 +164,42 @@ companies:
   url: https://betterorigin.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: betterorigin
+  slug: betterorigin
+  matched_by: domain
 - name: bigfishgames
   url: https://www.bigfishgames.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bigfishgames
+  slug: bigfishgames
+  matched_by: domain
 - name: bookatable
   url: https://www.bookatable.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bookatable
+  slug: bookatable
+  matched_by: domain
 - name: brigad
   url: https://www.brigad.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brigad
+  slug: brigad
+  matched_by: domain
 - name: carwow
   url: https://www.carwow.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carwow
+  slug: carwow
+  matched_by: domain
 - name: checklyhq
   url: https://www.checklyhq.com/
   status: unknown
@@ -195,16 +212,18 @@ companies:
   url: https://www.getcino.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getcino
+  slug: getcino
+  matched_by: domain
 - name: circlehealth
   url: https://www.circlehealth.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circlehealth
+  slug: circlehealth
+  matched_by: name-slug
 - name: citymapper
   url: https://citymapper.com/london
   status: unknown
@@ -233,16 +252,18 @@ companies:
   url: https://cobee.io/en/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cobee
+  in_network: true
+  is_api_provider: true
+  slug: cobee
+  matched_by: domain
 - name: codemasters
   url: http://www.codemasters.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: codemasters
+  slug: codemasters
+  matched_by: domain
 - name: complyadvantage
   url: https://complyadvantage.com/
   status: unknown
@@ -263,37 +284,42 @@ companies:
   url: https://convergence.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: convergence
+  slug: convergence
+  matched_by: domain
 - name: coro
   url: https://www.coro.net/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coro
+  slug: coro
+  matched_by: domain
 - name: creditbenchmark
   url: http://www.creditbenchmark.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: creditbenchmark
+  in_network: true
+  is_api_provider: true
+  slug: creditbenchmark
+  matched_by: domain
 - name: crowdcube
   url: https://www.crowdcube.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crowdcube
+  slug: crowdcube
+  matched_by: domain
 - name: thecuriousaicompany
   url: https://thecuriousaicompany.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thecuriousaicompany
+  slug: thecuriousaicompany
+  matched_by: domain
 - name: darktrace
   url: https://www.darktrace.com/
   status: unknown
@@ -306,23 +332,26 @@ companies:
   url: https://www.dash0.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dash0
+  in_network: true
+  is_api_provider: true
+  slug: dash0
+  matched_by: domain
 - name: meetdavis
   url: https://www.meetdavis.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meetdavis
+  slug: meetdavis
+  matched_by: domain
 - name: deepip
   url: https://www.deepip.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deepip
+  slug: deepip
+  matched_by: domain
 - name: deepset
   url: https://www.deepset.ai/
   status: unknown
@@ -335,72 +364,82 @@ companies:
   url: https://www.definedcrowd.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: definedcrowd
+  in_network: true
+  is_api_provider: true
+  slug: definedcrowd
+  matched_by: domain
 - name: delli
   url: https://delli.market/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delli
+  slug: delli
+  matched_by: domain
 - name: demodesk
   url: https://demodesk.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: demodesk
+  in_network: true
+  is_api_provider: true
+  slug: demodesk
+  matched_by: domain
 - name: depop
   url: https://www.depop.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: depop
+  in_network: true
+  is_api_provider: true
+  slug: depop
+  matched_by: domain
 - name: detectify
   url: https://detectify.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: detectify
+  slug: detectify
+  matched_by: domain
 - name: digitalsurgery
   url: https://digitalsurgery.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digitalsurgery
+  slug: digitalsurgery
+  matched_by: domain
 - name: getdinghy
   url: https://getdinghy.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getdinghy
+  slug: getdinghy
+  matched_by: domain
 - name: displaylink
   url: http://www.displaylink.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: displaylink
+  slug: displaylink
+  matched_by: domain
 - name: dreamgames
   url: https://dreamgames.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dreamgames
+  slug: dreamgames
+  matched_by: domain
 - name: dubsmash
   url: https://dubsmash.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dubsmash
+  slug: dubsmash
+  matched_by: domain
 - name: escape
   url: https://escape.tech/
   status: unknown
@@ -413,79 +452,90 @@ companies:
   url: http://www.exein.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exein
+  slug: exein
+  matched_by: domain
 - name: ezoic
   url: https://www.ezoic.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ezoic
+  in_network: true
+  is_api_provider: true
+  slug: ezoic
+  matched_by: domain
 - name: finoa
   url: https://www.finoa.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finoa
+  slug: finoa
+  matched_by: domain
 - name: flywire
   url: https://www.flywire.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flywire
+  slug: flywire
+  matched_by: domain
 - name: forecast
   url: https://www.forecast.app/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forecast
+  slug: forecast
+  matched_by: domain
 - name: frontiercargroup
   url: https://www.frontiercargroup.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frontiercargroup
+  slug: frontiercargroup
+  matched_by: domain
 - name: funnel
   url: https://funnel.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: funnel
+  slug: funnel
+  matched_by: domain
 - name: furhatrobotics
   url: https://www.furhatrobotics.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: furhatrobotics
+  slug: furhatrobotics
+  matched_by: domain
 - name: tesseractenergy
   url: https://www.tesseractenergy.xyz/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tesseractenergy
+  slug: tesseractenergy
+  matched_by: name-slug
 - name: GCL
   url: https://www.gclsi.com/en/about-gcl
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gcl
+  slug: gcl
+  matched_by: domain
 - name: geordie
   url: https://www.geordie.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geordie
+  slug: geordie
+  matched_by: domain
 - name: gitguardian
   url: https://www.gitguardian.com/
   status: unknown
@@ -506,37 +556,42 @@ companies:
   url: https://grand.gs/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grand
+  slug: grand
+  matched_by: domain
 - name: graphcore
   url: https://www.graphcore.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graphcore
+  slug: graphcore
+  matched_by: domain
 - name: grasp
   url: https://grasp.study/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grasp
+  slug: grasp
+  matched_by: domain
 - name: healx
   url: https://healx.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: healx
+  slug: healx
+  matched_by: name-slug
 - name: hiya
   url: https://hiya.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hiya
+  slug: hiya
+  matched_by: domain
 - name: housecallpro
   url: https://www.housecallpro.com/
   status: unknown
@@ -549,86 +604,98 @@ companies:
   url: https://www.housetrip.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: housetrip
+  slug: housetrip
+  matched_by: domain
 - name: hubilo
   url: https://hubilo.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hubilo
+  in_network: true
+  is_api_provider: true
+  slug: hubilo
+  matched_by: domain
 - name: hubs
   url: https://www.hubs.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hubs
+  slug: hubs
+  matched_by: domain
 - name: huspy
   url: https://huspy.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: huspy
+  slug: huspy
+  matched_by: domain
 - name: icerasemi
   url: http://www.icerasemi.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: icerasemi
+  slug: icerasemi
+  matched_by: domain
 - name: infarm
   url: https://infarm.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infarm
+  slug: infarm
+  matched_by: domain
 - name: instabridge
   url: https://instabridge.com/en/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instabridge
+  slug: instabridge
+  matched_by: domain
 - name: jokr
   url: https://www.jokr.it/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jokr
+  slug: jokr
+  matched_by: domain
 - name: jolt
   url: https://www.jolt.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jolt
+  slug: jolt
+  matched_by: domain
 - name: jumboprivacy
   url: https://www.jumboprivacy.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumboprivacy
+  slug: jumboprivacy
+  matched_by: domain
 - name: kaiahealth
   url: https://www.kaiahealth.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kaiahealth
+  slug: kaiahealth
+  matched_by: domain
 - name: kboxglobal
   url: https://www.kboxglobal.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kboxglobal
+  slug: kboxglobal
+  matched_by: domain
 - name: kili-technology
   url: https://kili-technology.com/
   status: unknown
@@ -641,9 +708,10 @@ companies:
   url: https://www.kobaltmusic.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kobaltmusic
+  slug: kobaltmusic
+  matched_by: domain
 - name: konghq
   url: https://konghq.com/
   status: unknown
@@ -656,93 +724,106 @@ companies:
   url: https://www.labster.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: labster
+  slug: labster
+  matched_by: domain
 - name: lassie
   url: https://www.lassie.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lassie
+  slug: lassie
+  matched_by: domain
 - name: latana
   url: https://latana.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: latana
+  slug: latana
+  matched_by: domain
 - name: lawhive
   url: https://lawhive.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lawhive
+  slug: lawhive
+  matched_by: domain
 - name: lendable
   url: https://www.lendable.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lendable
+  slug: lendable
+  matched_by: domain
 - name: thelevelup
   url: https://www.thelevelup.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thelevelup
+  slug: thelevelup
+  matched_by: domain
 - name: levity
   url: https://levity.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levity
+  slug: levity
+  matched_by: domain
 - name: lifesum
   url: https://lifesum.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lifesum
+  slug: lifesum
+  matched_by: domain
 - name: light
   url: https://light.inc/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: light
+  in_network: true
+  is_api_provider: true
+  slug: light
+  matched_by: domain
 - name: lindushealth
   url: https://www.lindushealth.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lindushealth
+  slug: lindushealth
+  matched_by: domain
 - name: lovecrafts
   url: https://www.lovecrafts.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lovecrafts
+  slug: lovecrafts
+  matched_by: domain
 - name: luno
   url: https://www.luno.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luno
+  slug: luno
+  matched_by: domain
 - name: lyst
   url: https://www.lyst.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lyst
+  slug: lyst
+  matched_by: domain
 - name: matillion
   url: https://www.matillion.com/
   status: unknown
@@ -755,51 +836,58 @@ companies:
   url: https://mbapolymers.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mbapolymers
+  slug: mbapolymers
+  matched_by: domain
 - name: mcmakler
   url: https://www.mcmakler.de/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mcmakler
+  slug: mcmakler
+  matched_by: domain
 - name: memrise
   url: https://www.memrise.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memrise
+  slug: memrise
+  matched_by: domain
 - name: merama
   url: https://www.merama.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merama
+  slug: merama
+  matched_by: domain
 - name: miim
   url: https://www.miim.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: miim
+  slug: miim
+  matched_by: domain
 - name: mojiworks
   url: https://www.mojiworks.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mojiworks
+  slug: mojiworks
+  matched_by: domain
 - name: mozartai
   url: https://mozartai.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mozartai
+  slug: mozartai
+  matched_by: domain
 - name: mysql
   url: https://www.mysql.com/
   status: unknown
@@ -812,37 +900,42 @@ companies:
   url: https://mytomorrows.com/en/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mytomorrows
+  in_network: true
+  is_api_provider: true
+  slug: mytomorrows
+  matched_by: domain
 - name: naturalmotion
   url: http://www.naturalmotion.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: naturalmotion
+  slug: naturalmotion
+  matched_by: domain
 - name: nested
   url: https://www.nested.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nested
+  slug: nested
+  matched_by: domain
 - name: Synchronoss
   url: http://synchronoss.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synchronoss
+  slug: synchronoss
+  matched_by: domain
 - name: nlyte
   url: http://www.nlyte.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nlyte
+  slug: nlyte
+  matched_by: domain
 - name: numeral
   url: https://www.numeral.io/
   status: unknown
@@ -855,37 +948,42 @@ companies:
   url: https://www.nutmeg.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nutmeg
+  slug: nutmeg
+  matched_by: domain
 - name: omio
   url: https://www.omio.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omio
+  slug: omio
+  matched_by: domain
 - name: oncimmune
   url: http://oncimmune.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oncimmune
+  slug: oncimmune
+  matched_by: domain
 - name: opbeat
   url: https://opbeat.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opbeat
+  slug: opbeat
+  matched_by: domain
 - name: openet
   url: https://www.openet.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openet
+  slug: openet
+  matched_by: domain
 - name: ory
   url: https://www.ory.sh/
   status: unknown
@@ -898,30 +996,34 @@ companies:
   url: https://www.patientsknowbest.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patientsknowbest
+  slug: patientsknowbest
+  matched_by: domain
 - name: paywithmybank
   url: https://www.paywithmybank.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: paywithmybank
+  in_network: true
+  is_api_provider: true
+  slug: paywithmybank
+  matched_by: name-slug
 - name: payflows
   url: https://www.payflows.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payflows
+  slug: payflows
+  matched_by: domain
 - name: peakon
   url: https://peakon.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: peakon
+  in_network: true
+  is_api_provider: true
+  slug: peakon
+  matched_by: domain
 - name: photoroom
   url: https://www.photoroom.com/
   status: unknown
@@ -934,16 +1036,18 @@ companies:
   url: https://playplay.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playplay
+  slug: playplay
+  matched_by: domain
 - name: premialab
   url: https://premialab.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: premialab
+  slug: premialab
+  matched_by: domain
 - name: primer
   url: https://primer.io/
   status: unknown
@@ -956,16 +1060,18 @@ companies:
   url: https://priorlabs.ai/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: priorlabs
+  in_network: true
+  is_api_provider: true
+  slug: priorlabs
+  matched_by: domain
 - name: prodigyfinance
   url: https://prodigyfinance.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prodigyfinance
+  slug: prodigyfinance
+  matched_by: domain
 - name: pusher
   url: http://www.pusher.com/
   status: unknown
@@ -978,16 +1084,18 @@ companies:
   url: https://www.qargo.io/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qargo
+  in_network: true
+  is_api_provider: true
+  slug: qargo
+  matched_by: name-slug
 - name: qubit
   url: https://www.qubit.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qubit
+  slug: qubit
+  matched_by: domain
 - name: ramp
   url: https://ramp.network/
   status: unknown
@@ -1000,9 +1108,10 @@ companies:
   url: https://www.rebtel.com/en/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rebtel
+  slug: rebtel
+  matched_by: domain
 - name: recordedfuture
   url: https://www.recordedfuture.com/
   status: unknown
@@ -1015,65 +1124,74 @@ companies:
   url: https://www.rentify.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rentify
+  slug: rentify
+  matched_by: domain
 - name: request
   url: https://www.request.finance/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: request
+  slug: request
+  matched_by: domain
 - name: reson8
   url: https://www.reson8.dev/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: reson8
+  in_network: true
+  is_api_provider: true
+  slug: reson8
+  matched_by: domain
 - name: getriff
   url: https://getriff.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getriff
+  slug: getriff
+  matched_by: domain
 - name: roli
   url: https://roli.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roli
+  slug: roli
+  matched_by: domain
 - name: sava
   url: https://www.sava.health/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sava
+  slug: sava
+  matched_by: domain
 - name: Scalable Capital
   url: https://de.scalable.capital/en
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalable-capital
+  slug: scalable-capital
+  matched_by: domain
 - name: scytl
   url: http://www.scytl.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scytl
+  slug: scytl
+  matched_by: domain
 - name: Simple Feast
   url: https://food.simplefeast.com/en?
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simple-feast
+  slug: simple-feast
+  matched_by: domain
 - name: sketchfab
   url: https://sketchfab.com/
   status: unknown
@@ -1086,23 +1204,26 @@ companies:
   url: https://www.smolproducts.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smolproducts
+  slug: smolproducts
+  matched_by: domain
 - name: sophiagenetics
   url: https://www.sophiagenetics.com/home.html
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sophiagenetics
+  slug: sophiagenetics
+  matched_by: domain
 - name: soundtrackyourbrand
   url: https://www.soundtrackyourbrand.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soundtrackyourbrand
+  slug: soundtrackyourbrand
+  matched_by: domain
 - name: stream
   url: https://stream.co/
   status: unknown
@@ -1115,9 +1236,10 @@ companies:
   url: https://supernormal.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: supernormal
+  in_network: true
+  is_api_provider: true
+  slug: supernormal
+  matched_by: domain
 - name: sweep
   url: https://www.sweep.net/
   status: unknown
@@ -1138,9 +1260,10 @@ companies:
   url: https://www.taktile.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taktile
+  slug: taktile
+  matched_by: domain
 - name: talend
   url: https://www.talend.com/
   status: unknown
@@ -1153,58 +1276,66 @@ companies:
   url: http://taptapsend.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taptapsend
+  slug: taptapsend
+  matched_by: domain
 - name: tempow
   url: http://www.tempow.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tempow
+  slug: tempow
+  matched_by: domain
 - name: tessian
   url: https://www.tessian.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tessian
+  in_network: true
+  is_api_provider: true
+  slug: tessian
+  matched_by: domain
 - name: testgorilla
   url: https://www.testgorilla.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: testgorilla
+  slug: testgorilla
+  matched_by: domain
 - name: theorg
   url: https://theorg.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theorg
+  slug: theorg
+  matched_by: domain
 - name: thetab
   url: http://thetab.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thetab
+  slug: thetab
+  matched_by: domain
 - name: thg
   url: https://www.thg.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thg
+  slug: thg
+  matched_by: domain
 - name: thread
   url: https://www.thread.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thread
+  slug: thread
+  matched_by: domain
 - name: tibber
   url: https://tibber.com/en
   status: unknown
@@ -1217,9 +1348,10 @@ companies:
   url: https://tictail.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tictail
+  slug: tictail
+  matched_by: domain
 - name: tinybird
   url: https://www.tinybird.co/
   status: unknown
@@ -1232,93 +1364,106 @@ companies:
   url: https://toucantoco.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: toucantoco
+  slug: toucantoco
+  matched_by: domain
 - name: trademarknow
   url: https://www.trademarknow.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trademarknow
+  slug: trademarknow
+  matched_by: domain
 - name: containo
   url: https://containo.us/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: containo
+  slug: containo
+  matched_by: name-slug
 - name: trawa
   url: https://www.trawa.de/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trawa
+  slug: trawa
+  matched_by: domain
 - name: treasuryspring
   url: https://www.treasuryspring.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: treasuryspring
+  in_network: true
+  is_api_provider: true
+  slug: treasuryspring
+  matched_by: domain
 - name: truecaller
   url: https://www.truecaller.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truecaller
+  slug: truecaller
+  matched_by: domain
 - name: uncommonbio
   url: https://uncommonbio.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uncommonbio
+  slug: uncommonbio
+  matched_by: domain
 - name: vanmoof
   url: https://www.vanmoof.com/en-GB
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vanmoof
+  slug: vanmoof
+  matched_by: domain
 - name: vestiairecollective
   url: https://www.vestiairecollective.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vestiairecollective
+  slug: vestiairecollective
+  matched_by: domain
 - name: violet
   url: https://www.violet.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: violet
+  slug: violet
+  matched_by: domain
 - name: govirtuo
   url: https://www.govirtuo.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: govirtuo
+  slug: govirtuo
+  matched_by: domain
 - name: vivenu
   url: https://vivenu.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vivenu
+  in_network: true
+  is_api_provider: true
+  slug: vivenu
+  matched_by: domain
 - name: vivino
   url: https://www.vivino.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vivino
+  slug: vivino
+  matched_by: domain
 - name: voiscooters
   url: https://www.voiscooters.com/
   status: unknown
@@ -1331,9 +1476,10 @@ companies:
   url: https://www.wooga.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wooga
+  slug: wooga
+  matched_by: domain
 - name: workable
   url: https://www.workable.com/
   status: unknown
@@ -1346,9 +1492,10 @@ companies:
   url: https://www.workhuman.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workhuman
+  slug: workhuman
+  matched_by: domain
 - name: writer
   url: https://www.writer.com/
   status: unknown
@@ -1361,41 +1508,47 @@ companies:
   url: http://www.yinglisolar.com/en/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yinglisolar
+  slug: yinglisolar
+  matched_by: domain
 - name: yokoy
   url: https://yokoy.io/en-ch/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: yokoy
+  in_network: true
+  is_api_provider: true
+  slug: yokoy
+  matched_by: domain
 - name: ynap
   url: http://www.ynap.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ynap
+  slug: ynap
+  matched_by: domain
 - name: zego
   url: https://www.zego.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zego
+  in_network: true
+  is_api_provider: true
+  slug: zego
+  matched_by: domain
 - name: joinzoe
   url: https://joinzoe.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joinzoe
+  slug: joinzoe
+  matched_by: name-slug
 - name: zopa
   url: https://www.zopa.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zopa
+  in_network: true
+  is_api_provider: true
+  slug: zopa
+  matched_by: domain
