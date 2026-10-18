@@ -3,9 +3,9 @@ method: searched
 source: https://www.balderton.com/companies/
 summary:
   portfolio_total: 193
-  in_network: 193
-  api_providers: 50
-  missing: 0
+  in_network: 190
+  api_providers: 51
+  missing: 3
   stubs_created: 0
 companies:
 - name: revolut
@@ -38,7 +38,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: proximafusion
+  slug: proxima-fusion
   matched_by: domain
 - name: meetcleo
   url: https://www.meetcleo.com/
@@ -54,7 +54,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: exploration
+  slug: the-exploration-company
   matched_by: domain
 - name: 01health
   url: https://01health.ai/
@@ -142,7 +142,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: beautypie
+  slug: beauty-pie
   matched_by: domain
 - name: Bebo
   url: https://bebo.com
@@ -220,10 +220,10 @@ companies:
   url: https://www.circlehealth.co.uk/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: circlehealth
-  matched_by: name-slug
+  x-name-collision: circlehealth
+  suggested_slug: circlehealth-co-uk
 - name: citymapper
   url: https://citymapper.com/london
   status: unknown
@@ -494,7 +494,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: frontiercargroup
+  slug: frontier-car-group
   matched_by: domain
 - name: funnel
   url: https://funnel.io/
@@ -516,10 +516,9 @@ companies:
   url: https://www.tesseractenergy.xyz/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tesseractenergy
-  matched_by: name-slug
+  suggested_slug: tesseractenergy
 - name: GCL
   url: https://www.gclsi.com/en/about-gcl
   status: unknown
@@ -710,7 +709,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: kobaltmusic
+  slug: kobalt
   matched_by: domain
 - name: konghq
   url: https://konghq.com/
@@ -766,7 +765,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: thelevelup
+  slug: levelup
   matched_by: domain
 - name: levity
   url: https://levity.ai/
@@ -798,7 +797,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: lindushealth
+  slug: lindus-health
   matched_by: domain
 - name: lovecrafts
   url: https://www.lovecrafts.com/
@@ -991,14 +990,14 @@ companies:
   slug: ory
   in_network: true
   is_api_provider: true
-  matched_by: domain
+  matched_by: name-slug
 - name: patientsknowbest
   url: https://www.patientsknowbest.com/
   status: unknown
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: patientsknowbest
+  slug: patients-know-best
   matched_by: domain
 - name: paywithmybank
   url: https://www.paywithmybank.com/
@@ -1006,8 +1005,8 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: true
-  slug: paywithmybank
-  matched_by: name-slug
+  slug: trustly
+  matched_by: domain
 - name: payflows
   url: https://www.payflows.io/
   status: unknown
@@ -1206,7 +1205,7 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: smolproducts
+  slug: smol
   matched_by: domain
 - name: sophiagenetics
   url: https://www.sophiagenetics.com/home.html
@@ -1222,16 +1221,16 @@ companies:
   source: https://www.balderton.com/companies/
   in_network: true
   is_api_provider: false
-  slug: soundtrackyourbrand
+  slug: soundtrack-your-brand
   matched_by: domain
 - name: stream
   url: https://stream.co/
   status: unknown
   source: https://www.balderton.com/companies/
-  slug: stream
+  slug: wagestream
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: supernormal
   url: https://supernormal.com/
   status: unknown
@@ -1468,7 +1467,7 @@ companies:
   url: https://www.voiscooters.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  slug: voi-app
+  slug: voi
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1540,10 +1539,10 @@ companies:
   url: https://joinzoe.com/
   status: unknown
   source: https://www.balderton.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: joinzoe
-  matched_by: name-slug
+  x-name-collision: joinzoe
+  suggested_slug: joinzoe-com
 - name: zopa
   url: https://www.zopa.com/
   status: unknown

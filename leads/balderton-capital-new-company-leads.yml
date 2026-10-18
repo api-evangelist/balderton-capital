@@ -1,4 +1,25 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: balderton-capital
-leads: []
+leads:
+- name: circlehealth
+  url: https://www.circlehealth.co.uk/
+  suggested_slug: circlehealth-co-uk
+  sector: ''
+  source_vc: balderton-capital
+  source: https://www.balderton.com/companies/
+  stub_created: false
+- name: tesseractenergy
+  url: https://www.tesseractenergy.xyz/
+  suggested_slug: tesseractenergy
+  sector: ''
+  source_vc: balderton-capital
+  source: https://www.balderton.com/companies/
+  stub_created: false
+- name: joinzoe
+  url: https://joinzoe.com/
+  suggested_slug: joinzoe-com
+  sector: ''
+  source_vc: balderton-capital
+  source: https://www.balderton.com/companies/
+  stub_created: false
